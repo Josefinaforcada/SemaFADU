@@ -1,0 +1,333 @@
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+/*font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+/*font-family: 'Inter', sans-serif;*/
+
+body {width:100%; background: rgb(255, 255, 255); font-family: 'Montserrat', sans-serif;}
+input {border: none; background-color: white;}
+a {text-decoration: none; color: #18191F; font-size: 13px;}
+
+/* contenedor: esto va en TODAS las pantallas; abajo los colores por seccion*/
+.contenedor {max-width: 48rem; background: white; min-height: 100vh; margin: auto; margin-top: 4rem; text-align: center; padding: 8px;}
+
+
+
+
+/* splash / inicio de la app*/
+.splash {text-align: center; padding: 5%;}
+.splash h1 {margin-bottom: 2rem; font-size: 130%}
+.logo {width: 50%}
+
+
+
+/************************* BARRA SUPERIOR */
+header {position: fixed; top: 0; width: 100%; z-index: 1000}
+.topbar
+        {display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+    	justify-content: space-between;
+    	align-items: center;
+    	align-content: stretch;
+        padding: 20px 20px 10px 20px;
+        box-shadow: 0 0px 6px rgba(0,0,0,.3)
+}
+
+.topbar #titulo {width: 100%; text-align: center; font-weight: 800; font-size: 135%; }
+.topbar #logo {width: 35px; height: 37px;}
+
+
+
+/*FORMATO INICIO-REGISTRO-RESTAURAR CUENTA*/
+.logosemafadu {height: 150px; margin-bottom: 10%; margin-top: 10%;}
+
+.formulario {padding: 0rem 1rem;}
+
+
+.input-texto {padding: .5rem; background: #FFFFFF; border: 2px solid #18191F; border-radius: 16px; display: block; width: 85%; margin: 1em; margin-right: auto; margin-left: auto; height: 5%; font-family: 'Montserrat', sans-serif;font-weight: 400; font-size:100%; line-height: 28px;}
+.input-memear {padding: .5rem; background: rgb(117, 117, 117); color:white;border: 2px solid #18191F; border-radius: 16px; display: block; width: 85%; margin: 1em; margin-right: auto; margin-left: auto; height: 5%; font-family: 'Montserrat', sans-serif;font-weight: 400; font-size:100%; line-height: 28px;}
+.input-memear::placeholder{color: white;font-family: 'Montserrat', sans-serif;font-weight: 400; font-size:100%; line-height: 28px;}
+.boton {padding: 0.5rem; background: #FFBD12; border: 2px solid #18191F; box-shadow: 0 2px 0 0; border-radius: 16px; display: block; width: 85%; margin: 1em; margin-right: auto; margin-left: auto; height: 5%; font-weight: 800; font-size: 100%;}
+
+.links { font-weight: 500; line-height: 18px; color: #18191F; height: 35vh;position: relative; top: 0.5rem; display: flex;flex-direction: column;justify-content: space-between;margin-bottom: 1rem;}
+.olvido {display: block; font-weight: 700; text-decoration: underline;}
+.olvido:hover{text-decoration: underline;}
+.registro {display:block;}
+.restaurar {margin-top: 100px;}
+.nopasanada h1 {font-weight: 800;}
+.nopasanada p {font-weight: 500; font-size: 85%;}
+.parrafito {font-weight: 500; font-size: 80%;padding: 0.5rem 2.3rem;}
+.registrate{font-weight: 800;}
+.registrate:hover{text-decoration: underline;}
+.contenedorRegistro{max-width: 48rem; background: white; height: 100vh; margin: auto; margin-top: 4rem; text-align: center; padding: 8px;}
+/*************************************** MENU PRINCIPAL *************************************************/
+.contenedortarjetas {display: flex; overflow: auto;  }
+
+.div_contenedorImg img{
+    border-radius: 16px 16px 0 0 ;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.contenedor_botonPrincipal{
+    margin: 5% 3%;
+    width: 80%;
+    height: auto;
+    border: 2px solid #18191F;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 0px #18191F;
+    border-radius: 16px;
+    background: #FFFFFF;
+    overflow: hidden;
+    flex-shrink: 0;  
+
+}
+
+.div_contenedorTitulos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 10px;
+}
+
+.div_contenedorTitulos h2{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 28px;
+    color: #000000;
+}
+.div_contenedorTitulos p{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000000;
+}
+.margenBottom{
+	margin-bottom: 20px;
+}
+.fila {display: flex; justify-content: space-around; }
+.fila article {width: 40%;}
+.fila article div {display: flex; flex-direction: column; justify-content: center; background-color: white; border-radius: 16px; margin: 8px 0 8px 0; border: 2px solid #18191f; box-shadow: 0 2px 0 0; margin-bottom: 15px; border-radius: 16px; height: 65%;}
+.fila article div a {font-weight: 800; font-size: 115%}
+
+#amarillo {background-color:#FFBD12;}
+#azul{background:#8490FF;}
+#rosa{background: #FFB5D4;}
+#turquesa{background: #00C6AE;}
+#verde{background: #9FE509;}
+#naranja{background: #FF7B55;}
+#negro{background-color: #18191F;}
+#gris {background: #b7b7b7;}
+
+.amarillo{background: #FFBD12;}
+.azul{background:#8490FF;}
+.rosa{background: #FFB5D4;}
+.turquesa{background: #00C6AE;}
+.verde{background: #9FE509;}
+.naranja{background: #FF7B55;}
+.blanco {background: white;}
+.gris {background: #DADADA;}
+#colorBlanco{color: white;}
+/******************BARRA DE NAVEGACION*/
+.barra-navegacion{
+	position: fixed;
+	background: #fff;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	box-shadow: 0 0px 6px rgba(0,0,0,.3);
+}
+.barra-navegacion ul{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 3rem;
+	list-style: none;
+}
+.barra-navegacion ul li{
+	
+	text-align: center;
+
+}
+.barra-navegacion ul li a{
+	padding: .5rem;
+	font-size: 1.5rem;
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+
+
+/***************FILTROS*/
+
+.filtros  {display: flex; overflow: auto; padding-top: 1rem; padding-left:8px;padding-bottom: .4em; }
+
+.filtros  a {background-color: white; border-radius: 16px;  border: 1px solid #18191f; padding: 5px 10px; border-radius: 16px; font-weight: 500; margin-right: 20px; overflow: hidden; flex-shrink: 0; box-shadow: 0px 2px 0px #18191F; letter-spacing: 1px;}
+/*************************espacios****************************
+
+/* ESTILO Y TAMANO DE ILUSTRACION QUE VA SOBRE LOS BOTONES BLANCOS*/
+
+
+.espacio_principal {display: flex;flex-direction: column; justify-content: center; align-items: center; background-color: white; border-radius: 16px; margin-bottom: 8px; height: 150px; position: relative; margin-top: 100px; }
+
+.espacio_principal h2 { font-weight: 800; font-size: 340%; padding: 15px;}
+.espacio_principal h3 { font-weight: 700; font-size: 120%; letter-spacing: 1px; padding: 0 0 8px 0;    }
+.espacio_principal p {font-weight: 400; font-size: 110%; letter-spacing: 1px;}
+
+
+.espaciosmedianos {display: flex; justify-content: space-between; }
+.espaciosmedianos article {width: 49%;}
+.espaciosmedianos article div {display: flex;flex-direction: column; justify-content: center; background-color: white; border-radius: 16px; margin-bottom: 8px; height: 150px; position: relative;}
+.espaciosmedianos h2 {font-weight: 800; font-size: 190%;}
+.espaciosmedianos h3 {font-weight: 700; letter-spacing: 1px; padding-bottom: 5%;}
+.espaciosmedianos p {font-weight: 400; letter-spacing: 1px;}
+
+ 
+.espaciosmedianos .chico {height: 80px;}
+.espaciosmedianos .chico h2 {font-size: 150%;}
+.espaciosmedianos .chico h3 {font-size: 80%;}
+
+.aulasocupadas {display: flex; flex-direction: column; justify-content: space-around;}
+
+.aulasocupadas .aulaocu {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+background-color: #dfdfdf; border-radius: 10px; height: 40px; margin-bottom: 8px; padding: 1rem; }
+.aulasocupadas .aulaocu p {font-size: 80%;}
+.aulasocupadas .aulaocu .negra{font-weight: 800; font-size: 120%;}
+
+.aulasocupadas .white {background-color:white;}
+
+.reloj {font-size: 250%;}
+
+.tiempo {font-size: 60%;}
+
+
+
+.ilustracionespacio {position: absolute; top:  -100px;}
+
+
+
+.iconoc {position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 13px;
+padding-right: 15px; font-size: 100%; color: rgb(185, 185, 185);}
+.faveado {color: rgb(211, 59, 59);}
+
+.negrita {font-weight:500}
+
+
+/* EFECTO HOVER EN BOTON SON BORDE NEGRO Y BOTON BLANCO*/
+.bordeNegro{border: 2px solid #18191F;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 0px #18191F;
+	border-radius: 16px;}
+	
+.bordeNegro:hover{
+	border: none;
+	box-shadow: none;
+}	
+.boxShadow{
+	box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.25);
+}
+.boxShadow:hover{
+	box-shadow: inset 4px 4px 3px rgba(0, 0, 0, 0.25);
+}
+/*********COMENTARIOS
+
+/* H3 SON LOS NOMBRES DE USUARIO EN LOS COMENTARIOS*/
+.tituloComentario {font-size: 400%; font-weight: 800; color: white; padding: 10px;}
+
+.comentario {display: flex; align-items: flex-start; padding: 0 10px 20px 10px;}
+
+.caja {background-color: white; border-radius: 16px; border: 2px solid #18191f; padding: 15px;}
+.usuario {padding: 0 10px 0 0;}
+
+.textocomentario h3 {font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 600; text-align: left; padding-bottom: 8px;}
+
+.textocomentario p {font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; text-align: left;}
+
+/* PARTE DEL NAV MEMEAR E INPUT TEXTO*/ 
+
+#memear{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 100%;
+	height: 10vh;
+	background-color:#18191F;
+	
+}
+.circuloMemear{
+	margin-left: 5%;
+	border: 2px solid white ;
+	width: 40px;
+	height: 40px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	
+	
+}
+
+#memear a{
+	color: white;
+	font-size: large;
+}
+
+#memear li input{
+	margin-left: 5%;
+	margin-right: auto;
+	width: 130%;
+}
+#memear img{ display: block; margin-left:2rem;}
+/* DESPLEGABLE MEMES */
+
+#contenedorMemes{overflow: auto;width: 100%;}
+
+.display-none{display: none;}
+
+#contenedorMemes table{width: 100%;margin: auto;}
+
+#contenedorMemes table tr{ width: 100%;}
+
+#contenedorMemes table tr td img{ width: 60%; display: block; margin: auto;}
+
+#contenedorMemes table td{ width: 15%; height: 10vh; background-color: white; border-radius:16px; text-align: center; font-weight: 600;}
+
+/* BARRA DE NAVEGACION ADAPTADA PARA MEMES Y COMENTS*/
+.barra-navegacion-memear{position: fixed; background: #fff; left: 0px; bottom: 0px; width: 100%; box-shadow: 0 0px 6px rgba(0,0,0,.3); height: auto;}
+.barra-navegacion-memear ul{display: flex; justify-content: space-evenly; align-items: center; height: 3rem; list-style: none;}
+.barra-navegacion-memear ul li{ text-align: center;}
+.barra-navegacion-memear ul li a{ padding: .5rem; font-size: 1.5rem; display: block; color: #000; text-decoration: none;}
+
+/********MAPAS********/
+/*FILTROS MAPA*/
+
+.filtrosmapa  {display: flex; overflow: auto; padding-top: 1rem; padding-left:8px; padding-bottom: 1rem; }
+.filtrosmapa  a {font-weight: 500; overflow: hidden; flex-shrink: 0; letter-spacing: 1px;}
+.bordemapa {border: 1px solid #18191F; border-radius: 16px; box-sizing: border-box; box-shadow: 0px 2px 0px #18191F; margin-right: 20px ; padding: 4px 10px; }
+.mapas {width: 85%; padding-top: 1rem;}
+
+/*NIVELES*/
+.niveles {position: relative; z-index: 9999;}
+.niveles .boton-niveles { display: block; width: 2rem; text-align: center; background-color: rgba(255, 255, 255, 0.15);}
+
+.desplegable {position: absolute; top: 100%; text-align: center; list-style: none; box-shadow: 0px 4px 0px #18191F; display: none; background-color: rgba(255, 255, 255, 0.88);}
+.desplegable a {text-decoration: none; font-size: 150%; font-weight: 800; padding: .4em;}
+.desplegable li {margin: 1em 0 1em 0; border: 1px solid #18191F; border-radius: 5px; box-sizing: border-box; box-shadow: 0px 3px 0px #18191F; background: white;}
+.botonInvisible{width: 100%;height: 8rem; background-color: transparent; position: absolute; bottom: 4rem; left: 0rem;}
+.botonInvisible2{width: 20%;height: 30rem; background-color:transparent; position: absolute; top: 9rem; right: 3rem;}
+.botonInvisible3{width: 40%;height: 5rem; background-color:transparent; position: absolute; top: 9rem; right: 7rem;}
+.botonInvisible4{width: 30%;height:5rem; background-color:transparent; position: absolute; top: 15rem; right: 8rem;}
+.contenedorAbsolute{position: relative; z-index: -1;}
+.contenedorPopup{width: 100%;height: 100vh; background-color: rgba(0, 0, 0, 0.363); position: absolute; top: 0;}
+.botonPopUp{position: relative;top: 25%;left: 7%;}

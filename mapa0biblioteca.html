@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UBA | FADU | DG | DGPC | Cátedra Ocampo | Christian Sesin, Adriana Luna, Marisol Bicego, Tiago Martí Porto, Daniel Higa, Sebastián Sánchez, Magalí Poliszuk, Alicia Zelada, Jonathan Aban | Eugenia Ferreyra, Josefina Forcada, Brenda Forns, Antonella Fossati, Agustín Frecia | Tema: App Post-Pandemia | 2º cuatrimestre 2020</title>
+    <link rel="stylesheet" type="text/css" href="css/estilosapp.css">
+    <link rel="stylesheet" type="text/css" href="css/iconos.css">
+    <!-- Primero cargo jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Luego cargo mi JS -->
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+<body>
+    <header>
+       <div class="topbar blanco">
+            <div id="boton"><a href="menuprincipal.html"> <img src="img/botonatras.png"></a></div>
+            <div id="titulo">mapa</div>
+            
+        <nav class="niveles"> 
+            <a href="#" class="boton-niveles">
+            <div id="boton"> <img src="img/boton0.png"></a>
+                <ul class="desplegable">
+                    <li><a href="mapaS.html">S</a></li>
+                    <li><a href="mapa.html">0</a></li>
+                    <li><a href="mapa1.html">1</a></li>
+                    <li><a href="mapaE.html">E</a></li>
+                    <li><a href="mapa2.html">2</a></li>
+                    <li><a href="mapa3.html">3</a></li>
+                </ul>
+            </div>  
+        </nav>
+  
+        </div>
+    </header>
+
+    <div class="contenedor"> 
+        <div class="filtrosmapa">
+            <div id="blanco" class="bordemapa">
+                <a href="mapa0sin.html">X</a>
+            </div>
+            <div id="gris" class="bordemapa">
+                <a>aulas</a>
+            </div>
+            <div id="blanco" class="bordemapa">
+                <a href="mapa0banios.html">baños</a>
+            </div>
+            <div id="blanco" class="bordemapa">
+                <a href="mapa0librerias.html">librerías</a>
+            </div>
+            <div id="blanco" class="bordemapa">
+                <a href="mapa0comedor.html">comedor</a>
+            </div>
+            <div id="rosa" class="bordemapa">
+                <a href="mapa0biblioteca.html">biblioteca</a>
+            </div>
+        </div>
+        
+       <img class ="mapas" src="img/mapa.pb.biblio.svg">
+       
+        <nav class="barra-navegacion">
+            <ul>
+			    <li><a href=mapa.html>
+				    <img src="img/iconmapfill.png">
+			    </a></li>
+			    <li><a href="menuprincipal.html">
+				    <span class="icon-home"></span>
+			    </a></li>
+			    <li><a href="favoritos.html">
+				    <span class="icon-heartempty iconofav"></span>
+			    </a></li>
+		    </ul>
+	    </nav>
+    </div>
+</body>
+
+</html>
